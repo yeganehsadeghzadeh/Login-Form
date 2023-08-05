@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  background-color: #f6f6f6;
+}
+
+.login-div {
+  width: 380px;
+  height: 600px;
+  background-color: #ecf0f3;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo {
+  background: url(./logo.webp);
+  width: 62px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #fff, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #afaaa7,
+    -8px -8px 15px #ebe8e8;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+}
+
+.fields {
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+
+.fields input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding: 20px 10px 20px 5px;
+}
+
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+}
+
+.svg-icon {
+  height: 22px;
+  margin: 0 10px -4px 25px;
+}
+
+.login-button {
+  border: none;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #02c8db;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  transition: all 0.3s ease-in;
+}
+
+.login-button:hover {
+  background-color: #50e5b9;
+}
+
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
